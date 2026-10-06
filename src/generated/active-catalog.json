@@ -1,0 +1,6263 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "version": "1.1.2.4",
+    "fullVersion": "1.1.2.4-52e959e-sw",
+    "buildId": "25096761",
+    "blueprintsSha256": "EA79A4A818D1268CE2D7B26F70F806196B7A046924A245A761E0B387E54A67FC",
+    "localizationsSha256": "C1038BD0BFD0CAC75EE517317817AA8AE84622ACCC0AA4B87ECB4DF8015D3A23"
+  },
+  "mapSize": {
+    "DefaultMapSize": {
+      "X": 128,
+      "Y": 128
+    },
+    "MinMapSize": 4,
+    "MaxMapSize": 256,
+    "MaxMapEditorTerrainHeight": 16,
+    "MaxGameTerrainHeight": 22,
+    "MaxHeightAboveTerrain": 10
+  },
+  "goods": [
+    {
+      "id": "Algae",
+      "name": "해조류",
+      "enName": "Algae"
+    },
+    {
+      "id": "AlgaeRation",
+      "name": "해조류 식량",
+      "enName": "Algae ration"
+    },
+    {
+      "id": "Antidote",
+      "name": "해독제",
+      "enName": "Antidote"
+    },
+    {
+      "id": "Badwater",
+      "name": "오염수",
+      "enName": "Badwater"
+    },
+    {
+      "id": "Berries",
+      "name": "베리",
+      "enName": "Berries"
+    },
+    {
+      "id": "Biofuel",
+      "name": "생물 연료",
+      "enName": "Biofuel"
+    },
+    {
+      "id": "Book",
+      "name": "책",
+      "enName": "Book"
+    },
+    {
+      "id": "BotChassis",
+      "name": "봇 뼈대",
+      "enName": "Bot chassis"
+    },
+    {
+      "id": "BotHead",
+      "name": "봇 머리",
+      "enName": "Bot head"
+    },
+    {
+      "id": "BotLimb",
+      "name": "봇 사지",
+      "enName": "Bot limb"
+    },
+    {
+      "id": "Bread",
+      "name": "빵",
+      "enName": "Bread"
+    },
+    {
+      "id": "CanolaOil",
+      "name": "카놀라 기름",
+      "enName": "Canola oil"
+    },
+    {
+      "id": "CanolaSeeds",
+      "name": "카놀라 씨",
+      "enName": "Canola seeds"
+    },
+    {
+      "id": "Carrot",
+      "name": "당근",
+      "enName": "Carrot"
+    },
+    {
+      "id": "Cassava",
+      "name": "카사바",
+      "enName": "Cassava"
+    },
+    {
+      "id": "Catalyst",
+      "name": "촉진제",
+      "enName": "Catalyst"
+    },
+    {
+      "id": "CattailCracker",
+      "name": "부들 크래커",
+      "enName": "Cattail cracker"
+    },
+    {
+      "id": "CattailFlour",
+      "name": "부들 밀가루",
+      "enName": "Cattail flour"
+    },
+    {
+      "id": "CattailRoot",
+      "name": "부들 뿌리",
+      "enName": "Cattail root"
+    },
+    {
+      "id": "Chestnut",
+      "name": "밤",
+      "enName": "Chestnut"
+    },
+    {
+      "id": "Coffee",
+      "name": "커피",
+      "enName": "Coffee"
+    },
+    {
+      "id": "CoffeeBean",
+      "name": "커피콩",
+      "enName": "Coffee beans"
+    },
+    {
+      "id": "Corn",
+      "name": "옥수수",
+      "enName": "Corn"
+    },
+    {
+      "id": "CornRation",
+      "name": "옥수수 식량",
+      "enName": "Corn ration"
+    },
+    {
+      "id": "Dandelion",
+      "name": "민들레",
+      "enName": "Dandelion"
+    },
+    {
+      "id": "Dirt",
+      "name": "진흙",
+      "enName": "Dirt"
+    },
+    {
+      "id": "Eggplant",
+      "name": "가지",
+      "enName": "Eggplant"
+    },
+    {
+      "id": "EggplantRation",
+      "name": "가지 식량",
+      "enName": "Eggplant ration"
+    },
+    {
+      "id": "Explosives",
+      "name": "폭발물",
+      "enName": "Explosive"
+    },
+    {
+      "id": "Extract",
+      "name": "추출물",
+      "enName": "Extract"
+    },
+    {
+      "id": "FermentedCassava",
+      "name": "발효 카사바",
+      "enName": "Fermented cassava"
+    },
+    {
+      "id": "FermentedMushroom",
+      "name": "발효 버섯",
+      "enName": "Fermented mushroom"
+    },
+    {
+      "id": "FermentedSoybean",
+      "name": "발효 콩",
+      "enName": "Fermented soybean"
+    },
+    {
+      "id": "Fireworks",
+      "name": "폭죽",
+      "enName": "Firework"
+    },
+    {
+      "id": "Gear",
+      "name": "톱니바퀴",
+      "enName": "Gear"
+    },
+    {
+      "id": "Grease",
+      "name": "그리스",
+      "enName": "Grease"
+    },
+    {
+      "id": "GrilledChestnut",
+      "name": "구운 밤",
+      "enName": "Grilled chestnuts"
+    },
+    {
+      "id": "GrilledPotato",
+      "name": "구운 감자",
+      "enName": "Grilled potato"
+    },
+    {
+      "id": "GrilledSpadderdock",
+      "name": "구운 노란 수련",
+      "enName": "Grilled spadderdock"
+    },
+    {
+      "id": "Kohlrabi",
+      "name": "콜라비",
+      "enName": "Kohlrabi"
+    },
+    {
+      "id": "Log",
+      "name": "통나무",
+      "enName": "Log"
+    },
+    {
+      "id": "MangroveFruit",
+      "name": "맹그로브 열매",
+      "enName": "Mangrove fruit"
+    },
+    {
+      "id": "MaplePastry",
+      "name": "메이플 페이스트리",
+      "enName": "Maple pastry"
+    },
+    {
+      "id": "MapleSyrup",
+      "name": "메이플 시럽",
+      "enName": "Maple syrup"
+    },
+    {
+      "id": "MetalBlock",
+      "name": "금속 블록",
+      "enName": "Metal block"
+    },
+    {
+      "id": "MetalPart",
+      "name": "금속 부품",
+      "enName": "Metal part"
+    },
+    {
+      "id": "Mushroom",
+      "name": "버섯",
+      "enName": "Mushroom"
+    },
+    {
+      "id": "Paper",
+      "name": "종이",
+      "enName": "Paper"
+    },
+    {
+      "id": "PineResin",
+      "name": "소나무 송진",
+      "enName": "Pine resin"
+    },
+    {
+      "id": "Plank",
+      "name": "판자",
+      "enName": "Plank"
+    },
+    {
+      "id": "Potato",
+      "name": "감자",
+      "enName": "Potato"
+    },
+    {
+      "id": "PunchCard",
+      "name": "천공 카드",
+      "enName": "Punch Card"
+    },
+    {
+      "id": "ScrapMetal",
+      "name": "고철",
+      "enName": "Scrap metal"
+    },
+    {
+      "id": "Soybean",
+      "name": "콩",
+      "enName": "Soybeans"
+    },
+    {
+      "id": "Spadderdock",
+      "name": "노란 수련",
+      "enName": "Spadderdock"
+    },
+    {
+      "id": "SunflowerSeeds",
+      "name": "해바라기씨",
+      "enName": "Sunflower seeds"
+    },
+    {
+      "id": "TreatedPlank",
+      "name": "강화 판자",
+      "enName": "Treated plank"
+    },
+    {
+      "id": "Water",
+      "name": "물",
+      "enName": "Water"
+    },
+    {
+      "id": "Wheat",
+      "name": "밀",
+      "enName": "Wheat"
+    },
+    {
+      "id": "WheatFlour",
+      "name": "밀가루",
+      "enName": "Wheat flour"
+    }
+  ],
+  "objects": [
+    {
+      "id": "DistrictCenter.Folktails",
+      "sourcePath": "Buildings/DistrictManagement/DistrictCenter/DistrictCenter.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.DistrictCenter.DisplayName",
+      "name": "구역 센터",
+      "enName": "District Center",
+      "group": "DistrictManagement",
+      "order": 10,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 3,
+          "Z": 5
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": {
+        "MainPathCoordinates": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0
+        }
+      },
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": false,
+        "EdgeGroups": [
+          {
+            "Cost": 1,
+            "Group": {
+              "UseGroup": false,
+              "GroupName": ""
+            },
+            "IsPath": true,
+            "AddedEdges": [
+              {
+                "Start": {
+                  "X": 1,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": 1,
+                  "Y": -1,
+                  "Z": 0
+                },
+                "IsTwoWay": false
+              },
+              {
+                "Start": {
+                  "X": 1,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": 1,
+                  "Y": 1,
+                  "Z": 0
+                },
+                "IsTwoWay": true
+              }
+            ]
+          }
+        ],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "DistrictCenter.IronTeeth",
+      "sourcePath": "Buildings/DistrictManagement/DistrictCenter/DistrictCenter.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.DistrictCenter.DisplayName",
+      "name": "구역 센터",
+      "enName": "District Center",
+      "group": "DistrictManagement",
+      "order": 10,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 3,
+          "Z": 5
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "None",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": {
+        "MainPathCoordinates": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0
+        }
+      },
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": false,
+        "EdgeGroups": [
+          {
+            "Cost": 1,
+            "Group": {
+              "UseGroup": false,
+              "GroupName": ""
+            },
+            "IsPath": true,
+            "AddedEdges": [
+              {
+                "Start": {
+                  "X": 1,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": 1,
+                  "Y": -1,
+                  "Z": 0
+                },
+                "IsTwoWay": false
+              },
+              {
+                "Start": {
+                  "X": 1,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": 1,
+                  "Y": 1,
+                  "Z": 0
+                },
+                "IsTwoWay": true
+              }
+            ]
+          }
+        ],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "Barrack.IronTeeth",
+      "sourcePath": "Buildings/Housing/Barrack/Barrack.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.Barrack.DisplayName",
+      "name": "숙소",
+      "enName": "Barrack",
+      "group": "Housing",
+      "order": 30,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 2,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "DoubleLodge.Folktails",
+      "sourcePath": "Buildings/Housing/DoubleLodge/DoubleLodge.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.DoubleLodge.DisplayName",
+      "name": "이중 오두막",
+      "enName": "Double Lodge",
+      "group": "Housing",
+      "order": 23,
+      "block": {
+        "Size": {
+          "X": 2,
+          "Y": 2,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 1
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": true
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [
+          {
+            "Cost": 1,
+            "Group": {
+              "UseGroup": false,
+              "GroupName": ""
+            },
+            "IsPath": false,
+            "AddedEdges": [
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 1
+                },
+                "End": {
+                  "X": 0,
+                  "Y": 1,
+                  "Z": 1
+                },
+                "IsTwoWay": true
+              },
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 1,
+                  "Z": 1
+                },
+                "End": {
+                  "X": 1,
+                  "Y": 1,
+                  "Z": 1
+                },
+                "IsTwoWay": true
+              },
+              {
+                "Start": {
+                  "X": 1,
+                  "Y": 1,
+                  "Z": 1
+                },
+                "End": {
+                  "X": 1,
+                  "Y": 0,
+                  "Z": 1
+                },
+                "IsTwoWay": true
+              },
+              {
+                "Start": {
+                  "X": 1,
+                  "Y": 0,
+                  "Z": 1
+                },
+                "End": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 1
+                },
+                "IsTwoWay": true
+              },
+              {
+                "Start": {
+                  "X": 1,
+                  "Y": 0,
+                  "Z": 1
+                },
+                "End": {
+                  "X": 1,
+                  "Y": -1,
+                  "Z": 1
+                },
+                "IsTwoWay": false
+              }
+            ]
+          }
+        ],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "LargeBarrack.IronTeeth",
+      "sourcePath": "Buildings/Housing/LargeBarrack/LargeBarrack.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.LargeBarrack.DisplayName",
+      "name": "대형 숙소",
+      "enName": "Large Barrack",
+      "group": "Housing",
+      "order": 31,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 3,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "LargeRowhouse.IronTeeth",
+      "sourcePath": "Buildings/Housing/LargeRowhouse/LargeRowhouse.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.LargeRowhouse.DisplayName",
+      "name": "대형 연립주택",
+      "enName": "Large Rowhouse",
+      "group": "Housing",
+      "order": 41,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 2,
+          "Z": 4
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "Lodge.Folktails",
+      "sourcePath": "Buildings/Housing/Lodge/Lodge.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.Lodge.DisplayName",
+      "name": "오두막",
+      "enName": "Lodge",
+      "group": "Housing",
+      "order": 20,
+      "block": {
+        "Size": {
+          "X": 2,
+          "Y": 2,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": true
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "MiniLodge.Folktails",
+      "sourcePath": "Buildings/Housing/MiniLodge/MiniLodge.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.MiniLodge.DisplayName",
+      "name": "미니 오두막",
+      "enName": "Mini Lodge",
+      "group": "Housing",
+      "order": 22,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 2,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "Rowhouse.IronTeeth",
+      "sourcePath": "Buildings/Housing/Rowhouse/Rowhouse.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.Rowhouse.DisplayName",
+      "name": "연립주택",
+      "enName": "Rowhouse",
+      "group": "Housing",
+      "order": 40,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 2,
+          "Z": 3
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "TripleLodge.Folktails",
+      "sourcePath": "Buildings/Housing/TripleLodge/TripleLodge.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.TripleLodge.DisplayName",
+      "name": "트리플 오두막",
+      "enName": "Triple Lodge",
+      "group": "Housing",
+      "order": 24,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 2,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 1
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [
+          {
+            "Cost": 1,
+            "Group": {
+              "UseGroup": false,
+              "GroupName": ""
+            },
+            "IsPath": false,
+            "AddedEdges": [
+              {
+                "Start": {
+                  "X": 1,
+                  "Y": 0,
+                  "Z": 1
+                },
+                "End": {
+                  "X": 1,
+                  "Y": 1,
+                  "Z": 1
+                },
+                "IsTwoWay": true
+              },
+              {
+                "Start": {
+                  "X": 1,
+                  "Y": 1,
+                  "Z": 1
+                },
+                "End": {
+                  "X": 0,
+                  "Y": 1,
+                  "Z": 1
+                },
+                "IsTwoWay": true
+              },
+              {
+                "Start": {
+                  "X": 1,
+                  "Y": 1,
+                  "Z": 1
+                },
+                "End": {
+                  "X": 2,
+                  "Y": 1,
+                  "Z": 1
+                },
+                "IsTwoWay": true
+              },
+              {
+                "Start": {
+                  "X": 1,
+                  "Y": 0,
+                  "Z": 1
+                },
+                "End": {
+                  "X": 1,
+                  "Y": -1,
+                  "Z": 1
+                },
+                "IsTwoWay": false
+              }
+            ]
+          }
+        ],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "DoublePlatform.Folktails",
+      "sourcePath": "Buildings/Paths/DoublePlatform/DoublePlatform.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.DoublePlatform.DisplayName",
+      "name": "이중 플랫폼",
+      "enName": "Double Platform",
+      "group": "Paths",
+      "order": 41,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Corners",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Top, Corners",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": true,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "DoublePlatform.IronTeeth",
+      "sourcePath": "Buildings/Paths/DoublePlatform/DoublePlatform.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.DoublePlatform.DisplayName",
+      "name": "이중 플랫폼",
+      "enName": "Double Platform",
+      "group": "Paths",
+      "order": 41,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Corners",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Top, Corners",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": true,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "Path",
+      "sourcePath": "Buildings/Paths/Path/Path.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails",
+        "iron-teeth"
+      ],
+      "nameKey": "Building.Path.DisplayName",
+      "name": "길",
+      "enName": "Path",
+      "group": "Paths",
+      "order": 10,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Path",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": {
+        "MainPathCoordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "navigation": {
+        "NoAutoWalls": true,
+        "GenerateFloorsOnStackable": false,
+        "EdgeGroups": [
+          {
+            "Cost": 1,
+            "Group": {
+              "UseGroup": false,
+              "GroupName": ""
+            },
+            "IsPath": true,
+            "AddedEdges": [
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": -1,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "IsTwoWay": false
+              },
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": 1,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "IsTwoWay": false
+              },
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": 0,
+                  "Y": -1,
+                  "Z": 0
+                },
+                "IsTwoWay": false
+              },
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": 0,
+                  "Y": 1,
+                  "Z": 0
+                },
+                "IsTwoWay": false
+              }
+            ]
+          }
+        ],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "Platform.Folktails",
+      "sourcePath": "Buildings/Paths/Platform/Platform.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.Platform.DisplayName",
+      "name": "플랫폼",
+      "enName": "Platform",
+      "group": "Paths",
+      "order": 40,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Top, Corners",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": true,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "Platform.IronTeeth",
+      "sourcePath": "Buildings/Paths/Platform/Platform.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.Platform.DisplayName",
+      "name": "플랫폼",
+      "enName": "Platform",
+      "group": "Paths",
+      "order": 40,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Top, Corners",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": true,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "Stairs.Folktails",
+      "sourcePath": "Buildings/Paths/Stairs/Stairs.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.Stairs.DisplayName",
+      "name": "계단",
+      "enName": "Stairs",
+      "group": "Paths",
+      "order": 20,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Path",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": {
+        "MainPathCoordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": false,
+        "EdgeGroups": [
+          {
+            "Cost": 1,
+            "Group": {
+              "UseGroup": false,
+              "GroupName": ""
+            },
+            "IsPath": true,
+            "AddedEdges": [
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": 0,
+                  "Y": 1,
+                  "Z": 0
+                },
+                "IsTwoWay": false
+              },
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 1
+                },
+                "End": {
+                  "X": 0,
+                  "Y": -1,
+                  "Z": 1
+                },
+                "IsTwoWay": false
+              }
+            ]
+          },
+          {
+            "Cost": 0.4,
+            "Group": {
+              "UseGroup": false,
+              "GroupName": ""
+            },
+            "IsPath": true,
+            "AddedEdges": [
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 1
+                },
+                "IsTwoWay": true
+              }
+            ]
+          }
+        ],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "Stairs.IronTeeth",
+      "sourcePath": "Buildings/Paths/Stairs/Stairs.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.Stairs.DisplayName",
+      "name": "계단",
+      "enName": "Stairs",
+      "group": "Paths",
+      "order": 20,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Path",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": {
+        "MainPathCoordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        }
+      },
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": false,
+        "EdgeGroups": [
+          {
+            "Cost": 1,
+            "Group": {
+              "UseGroup": false,
+              "GroupName": ""
+            },
+            "IsPath": true,
+            "AddedEdges": [
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": 0,
+                  "Y": 1,
+                  "Z": 0
+                },
+                "IsTwoWay": false
+              },
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 1
+                },
+                "End": {
+                  "X": 0,
+                  "Y": -1,
+                  "Z": 1
+                },
+                "IsTwoWay": false
+              }
+            ]
+          },
+          {
+            "Cost": 0.4,
+            "Group": {
+              "UseGroup": false,
+              "GroupName": ""
+            },
+            "IsPath": true,
+            "AddedEdges": [
+              {
+                "Start": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "End": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 1
+                },
+                "IsTwoWay": true
+              }
+            ]
+          }
+        ],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "TriplePlatform.Folktails",
+      "sourcePath": "Buildings/Paths/TriplePlatform/TriplePlatform.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.TriplePlatform.DisplayName",
+      "name": "트리플 플랫폼",
+      "enName": "Triple Platform",
+      "group": "Paths",
+      "order": 42,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 3
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Corners",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Corners",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Top, Corners",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": true,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "TriplePlatform.IronTeeth",
+      "sourcePath": "Buildings/Paths/TriplePlatform/TriplePlatform.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.TriplePlatform.DisplayName",
+      "name": "트리플 플랫폼",
+      "enName": "Triple Platform",
+      "group": "Paths",
+      "order": 42,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 3
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Corners",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Corners",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Top, Corners",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": true,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "LargeIndustrialPile.IronTeeth",
+      "sourcePath": "Buildings/Storage/LargeIndustrialPile/LargeIndustrialPile.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.LargeIndustrialPile.DisplayName",
+      "name": "대형 공업용 더미",
+      "enName": "Large Industrial Pile",
+      "group": "Storage",
+      "order": 21,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 3,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "LargePile.Folktails",
+      "sourcePath": "Buildings/Storage/LargePile/LargePile.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.LargePile.DisplayName",
+      "name": "통나무 더미",
+      "enName": "Large Pile",
+      "group": "Storage",
+      "order": 20,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 3,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": null
+    },
+    {
+      "id": "LargeTank.Folktails",
+      "sourcePath": "Buildings/Storage/LargeTank/LargeTank.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.LargeTank.DisplayName",
+      "name": "대형 탱크",
+      "enName": "Large Tank",
+      "group": "Storage",
+      "order": 80,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 3,
+          "Z": 3
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": null
+    },
+    {
+      "id": "LargeTank.IronTeeth",
+      "sourcePath": "Buildings/Storage/LargeTank/LargeTank.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.LargeTank.DisplayName",
+      "name": "대형 탱크",
+      "enName": "Large Tank",
+      "group": "Storage",
+      "order": 80,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 3,
+          "Z": 3
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": null
+    },
+    {
+      "id": "LargeWarehouse.Folktails",
+      "sourcePath": "Buildings/Storage/LargeWarehouse/LargeWarehouse.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.LargeWarehouse.DisplayName",
+      "name": "대형 창고",
+      "enName": "Large Warehouse",
+      "group": "Storage",
+      "order": 50,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 3,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "LargeWarehouse.IronTeeth",
+      "sourcePath": "Buildings/Storage/LargeWarehouse/LargeWarehouse.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.LargeWarehouse.DisplayName",
+      "name": "대형 창고",
+      "enName": "Large Warehouse",
+      "group": "Storage",
+      "order": 50,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 3,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "MediumTank.Folktails",
+      "sourcePath": "Buildings/Storage/MediumTank/MediumTank.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.MediumTank.DisplayName",
+      "name": "중형 탱크",
+      "enName": "Medium Tank",
+      "group": "Storage",
+      "order": 70,
+      "block": {
+        "Size": {
+          "X": 2,
+          "Y": 2,
+          "Z": 3
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": true
+      },
+      "path": null,
+      "navigation": null,
+      "plant": null
+    },
+    {
+      "id": "MediumTank.IronTeeth",
+      "sourcePath": "Buildings/Storage/MediumTank/MediumTank.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.MediumTank.DisplayName",
+      "name": "중형 탱크",
+      "enName": "Medium Tank",
+      "group": "Storage",
+      "order": 70,
+      "block": {
+        "Size": {
+          "X": 2,
+          "Y": 2,
+          "Z": 3
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": true
+      },
+      "path": null,
+      "navigation": null,
+      "plant": null
+    },
+    {
+      "id": "MediumWarehouse.Folktails",
+      "sourcePath": "Buildings/Storage/MediumWarehouse/MediumWarehouse.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.MediumWarehouse.DisplayName",
+      "name": "중형 창고",
+      "enName": "Medium Warehouse",
+      "group": "Storage",
+      "order": 40,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 2,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "MediumWarehouse.IronTeeth",
+      "sourcePath": "Buildings/Storage/MediumWarehouse/MediumWarehouse.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.MediumWarehouse.DisplayName",
+      "name": "중형 창고",
+      "enName": "Medium Warehouse",
+      "group": "Storage",
+      "order": 40,
+      "block": {
+        "Size": {
+          "X": 3,
+          "Y": 2,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 1,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "SmallIndustrialPile.IronTeeth",
+      "sourcePath": "Buildings/Storage/SmallIndustrialPile/SmallIndustrialPile.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.SmallIndustrialPile.DisplayName",
+      "name": "소형 공업용 더미",
+      "enName": "Small Industrial Pile",
+      "group": "Storage",
+      "order": 11,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "SmallPile.Folktails",
+      "sourcePath": "Buildings/Storage/SmallPile/SmallPile.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.SmallPile.DisplayName",
+      "name": "소형 더미",
+      "enName": "Small Pile",
+      "group": "Storage",
+      "order": 10,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": null
+    },
+    {
+      "id": "SmallTank.Folktails",
+      "sourcePath": "Buildings/Storage/SmallTank/SmallTank.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.SmallTank.DisplayName",
+      "name": "소형 탱크",
+      "enName": "Small Tank",
+      "group": "Storage",
+      "order": 60,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": null
+    },
+    {
+      "id": "SmallTank.IronTeeth",
+      "sourcePath": "Buildings/Storage/SmallTank/SmallTank.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.SmallTank.DisplayName",
+      "name": "소형 탱크",
+      "enName": "Small Tank",
+      "group": "Storage",
+      "order": 60,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": null
+    },
+    {
+      "id": "SmallWarehouse.Folktails",
+      "sourcePath": "Buildings/Storage/SmallWarehouse/SmallWarehouse.Folktails.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "Building.SmallWarehouse.DisplayName",
+      "name": "소형 창고",
+      "enName": "Small Warehouse",
+      "group": "Storage",
+      "order": 30,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "SmallWarehouse.IronTeeth",
+      "sourcePath": "Buildings/Storage/SmallWarehouse/SmallWarehouse.IronTeeth.blueprint.json",
+      "kind": "building",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "Building.SmallWarehouse.DisplayName",
+      "name": "소형 창고",
+      "enName": "Small Warehouse",
+      "group": "Storage",
+      "order": 30,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "GroundOrStackable",
+            "Occupations": "Bottom, Top, Corners, Path, Middle",
+            "Stackable": "BlockObject",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": true,
+          "Coordinates": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": {
+        "NoAutoWalls": false,
+        "GenerateFloorsOnStackable": true,
+        "EdgeGroups": [],
+        "UnblockedCoordinates": [],
+        "BlockedEdges": []
+      },
+      "plant": null
+    },
+    {
+      "id": "BlueberryBush",
+      "sourcePath": "NaturalResources/Bushes/Blueberry/BlueberryBush.blueprint.json",
+      "kind": "bush",
+      "factions": [
+        "folktails",
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Blueberry.DisplayName",
+      "name": "블루베리",
+      "enName": "Blueberry",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Forester",
+          "PlantTimeInHours": 0.37
+        },
+        "growth": {
+          "GrowthTimeInDays": 12
+        },
+        "cutting": null,
+        "gathering": {
+          "YieldGrowthTimeInDays": 12,
+          "Yielder": {
+            "YielderComponentName": "Gatherable",
+            "Yield": {
+              "Id": "Berries",
+              "Amount": 3
+            },
+            "RemovalTimeInHours": 0.8,
+            "ResourceGroup": "Gatherable"
+          }
+        },
+        "watered": {
+          "DaysToDieDry": 9
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 7
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "CoffeeBush",
+      "sourcePath": "NaturalResources/Bushes/Coffee/CoffeeBush.blueprint.json",
+      "kind": "bush",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Coffee.DisplayName",
+      "name": "커피 나무",
+      "enName": "Coffee Bush",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Forester",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 9
+        },
+        "cutting": null,
+        "gathering": {
+          "YieldGrowthTimeInDays": 3,
+          "Yielder": {
+            "YielderComponentName": "Gatherable",
+            "Yield": {
+              "Id": "CoffeeBean",
+              "Amount": 1
+            },
+            "RemovalTimeInHours": 0.8,
+            "ResourceGroup": "Gatherable"
+          }
+        },
+        "watered": {
+          "DaysToDieDry": 8
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 4
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Dandelion",
+      "sourcePath": "NaturalResources/Bushes/Dandelion/Dandelion.blueprint.json",
+      "kind": "bush",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "NaturalResource.Dandelion.DisplayName",
+      "name": "민들레",
+      "enName": "Dandelion",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Forester",
+          "PlantTimeInHours": 0.25
+        },
+        "growth": {
+          "GrowthTimeInDays": 3
+        },
+        "cutting": null,
+        "gathering": {
+          "YieldGrowthTimeInDays": 3,
+          "Yielder": {
+            "YielderComponentName": "Gatherable",
+            "Yield": {
+              "Id": "Dandelion",
+              "Amount": 1
+            },
+            "RemovalTimeInHours": 0.5,
+            "ResourceGroup": "Gatherable"
+          }
+        },
+        "watered": {
+          "DaysToDieDry": 8
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 4
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Canola",
+      "sourcePath": "NaturalResources/Crops/Canola/Canola.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Canola.DisplayName",
+      "name": "카놀라",
+      "enName": "Canola",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Farmhouse",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 9
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "CanolaSeeds",
+              "Amount": 3
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Farmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 0.5
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 0.5
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Carrot",
+      "sourcePath": "NaturalResources/Crops/Carrot/Carrot.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "NaturalResource.Carrot.DisplayName",
+      "name": "당근",
+      "enName": "Carrot",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Farmhouse",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 4
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Carrot",
+              "Amount": 3
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Farmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 2
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 2
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Cassava",
+      "sourcePath": "NaturalResources/Crops/Cassava/Cassava.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Cassava.DisplayName",
+      "name": "카사바",
+      "enName": "Cassava",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Farmhouse",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 5
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Cassava",
+              "Amount": 1
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Farmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 3
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 2
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Cattail",
+      "sourcePath": "NaturalResources/Crops/Cattail/Cattail.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "NaturalResource.Cattail.DisplayName",
+      "name": "부들",
+      "enName": "Cattail",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "AquaticFarmhouse",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 8
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "CattailRoot",
+              "Amount": 3
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "AquaticFarmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 1
+        },
+        "flooding": {
+          "MinWaterHeight": 1,
+          "MaxWaterHeight": 1,
+          "DaysToDie": 1
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Corn",
+      "sourcePath": "NaturalResources/Crops/Corn/Corn.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Corn.DisplayName",
+      "name": "옥수수",
+      "enName": "Corn",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Farmhouse",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 10
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Corn",
+              "Amount": 2
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Farmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 2
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 2
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Eggplant",
+      "sourcePath": "NaturalResources/Crops/Eggplant/Eggplant.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Eggplant.DisplayName",
+      "name": "가지",
+      "enName": "Eggplant",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Farmhouse",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 12
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Eggplant",
+              "Amount": 3
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Farmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 1
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 1
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Kohlrabi",
+      "sourcePath": "NaturalResources/Crops/Kohlrabi/Kohlrabi.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Kohlrabi.DisplayName",
+      "name": "콜라비",
+      "enName": "Kohlrabi",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Farmhouse",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 3
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Kohlrabi",
+              "Amount": 2
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Farmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 2
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 1
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Potato",
+      "sourcePath": "NaturalResources/Crops/Potato/Potato.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "NaturalResource.Potato.DisplayName",
+      "name": "감자",
+      "enName": "Potato",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Farmhouse",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 6
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Potato",
+              "Amount": 1
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Farmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 1
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 1
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Soybean",
+      "sourcePath": "NaturalResources/Crops/Soybean/Soybean.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Soybean.DisplayName",
+      "name": "콩",
+      "enName": "Soybean",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Farmhouse",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 8
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Soybean",
+              "Amount": 2
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Farmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 0.25
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 0.25
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Spadderdock",
+      "sourcePath": "NaturalResources/Crops/Spadderdock/Spadderdock.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "NaturalResource.Spadderdock.DisplayName",
+      "name": "노란 수련",
+      "enName": "Spadderdock",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "AquaticFarmhouse",
+          "PlantTimeInHours": 0.4
+        },
+        "growth": {
+          "GrowthTimeInDays": 12
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Spadderdock",
+              "Amount": 3
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "AquaticFarmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 0.3
+        },
+        "flooding": {
+          "MinWaterHeight": 1,
+          "MaxWaterHeight": 1,
+          "DaysToDie": 1
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Sunflower",
+      "sourcePath": "NaturalResources/Crops/Sunflower/Sunflower.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "NaturalResource.Sunflower.DisplayName",
+      "name": "해바라기",
+      "enName": "Sunflower",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Farmhouse",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 5
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "SunflowerSeeds",
+              "Amount": 2
+            },
+            "RemovalTimeInHours": 1.8,
+            "ResourceGroup": "Farmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 3.5
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 0.66
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Wheat",
+      "sourcePath": "NaturalResources/Crops/Wheat/Wheat.blueprint.json",
+      "kind": "crop",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "NaturalResource.Wheat.DisplayName",
+      "name": "밀",
+      "enName": "Wheat",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Farmhouse",
+          "PlantTimeInHours": 0.2
+        },
+        "growth": {
+          "GrowthTimeInDays": 10
+        },
+        "cutting": {
+          "RemoveOnCut": true,
+          "LeftoverModelName": "",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Wheat",
+              "Amount": 3
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Farmhouse"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 0.5
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 0.5
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Birch",
+      "sourcePath": "NaturalResources/Trees/Birch/Birch.blueprint.json",
+      "kind": "tree",
+      "factions": [
+        "folktails",
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Birch.DisplayName",
+      "name": "자작나무",
+      "enName": "Birch",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Forester",
+          "PlantTimeInHours": 0.5
+        },
+        "growth": {
+          "GrowthTimeInDays": 7
+        },
+        "cutting": {
+          "RemoveOnCut": false,
+          "LeftoverModelName": "#Leftover",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Log",
+              "Amount": 1
+            },
+            "RemovalTimeInHours": 1,
+            "ResourceGroup": "Cuttable"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 11
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 14
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "ChestnutTree",
+      "sourcePath": "NaturalResources/Trees/ChestnutTree/ChestnutTree.blueprint.json",
+      "kind": "tree",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "NaturalResource.ChestnutTree.DisplayName",
+      "name": "밤나무",
+      "enName": "Chestnut Tree",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 3
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Forester",
+          "PlantTimeInHours": 0.74
+        },
+        "growth": {
+          "GrowthTimeInDays": 23
+        },
+        "cutting": {
+          "RemoveOnCut": false,
+          "LeftoverModelName": "#Leftover",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Log",
+              "Amount": 4
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Cuttable"
+          }
+        },
+        "gathering": {
+          "YieldGrowthTimeInDays": 8,
+          "Yielder": {
+            "YielderComponentName": "Gatherable",
+            "Yield": {
+              "Id": "Chestnut",
+              "Amount": 3
+            },
+            "RemovalTimeInHours": 1,
+            "ResourceGroup": "Gatherable"
+          }
+        },
+        "watered": {
+          "DaysToDieDry": 8
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 10
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Mangrove",
+      "sourcePath": "NaturalResources/Trees/Mangrove/Mangrove.blueprint.json",
+      "kind": "tree",
+      "factions": [
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Mangrove.DisplayName",
+      "name": "맹그로브",
+      "enName": "Mangrove",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Forester",
+          "PlantTimeInHours": 0.6
+        },
+        "growth": {
+          "GrowthTimeInDays": 10
+        },
+        "cutting": {
+          "RemoveOnCut": false,
+          "LeftoverModelName": "#Leftover",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Log",
+              "Amount": 2
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Cuttable"
+          }
+        },
+        "gathering": {
+          "YieldGrowthTimeInDays": 10,
+          "Yielder": {
+            "YielderComponentName": "Gatherable",
+            "Yield": {
+              "Id": "MangroveFruit",
+              "Amount": 4
+            },
+            "RemovalTimeInHours": 1,
+            "ResourceGroup": "Gatherable"
+          }
+        },
+        "watered": {
+          "DaysToDieDry": 6
+        },
+        "flooding": {
+          "MinWaterHeight": 1,
+          "MaxWaterHeight": 1,
+          "DaysToDie": 16
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Maple",
+      "sourcePath": "NaturalResources/Trees/Maple/Maple.blueprint.json",
+      "kind": "tree",
+      "factions": [
+        "folktails"
+      ],
+      "nameKey": "NaturalResource.Maple.DisplayName",
+      "name": "단풍나무",
+      "enName": "Maple",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 3
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Forester",
+          "PlantTimeInHours": 1.1
+        },
+        "growth": {
+          "GrowthTimeInDays": 28
+        },
+        "cutting": {
+          "RemoveOnCut": false,
+          "LeftoverModelName": "#Leftover",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Log",
+              "Amount": 6
+            },
+            "RemovalTimeInHours": 2,
+            "ResourceGroup": "Cuttable"
+          }
+        },
+        "gathering": {
+          "YieldGrowthTimeInDays": 12,
+          "Yielder": {
+            "YielderComponentName": "Gatherable",
+            "Yield": {
+              "Id": "MapleSyrup",
+              "Amount": 3
+            },
+            "RemovalTimeInHours": 2,
+            "ResourceGroup": "Tappable"
+          }
+        },
+        "watered": {
+          "DaysToDieDry": 12
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 10
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Oak",
+      "sourcePath": "NaturalResources/Trees/Oak/Oak.blueprint.json",
+      "kind": "tree",
+      "factions": [
+        "folktails",
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Oak.DisplayName",
+      "name": "오크",
+      "enName": "Oak",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 3
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Forester",
+          "PlantTimeInHours": 1
+        },
+        "growth": {
+          "GrowthTimeInDays": 30
+        },
+        "cutting": {
+          "RemoveOnCut": false,
+          "LeftoverModelName": "#Leftover",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Log",
+              "Amount": 8
+            },
+            "RemovalTimeInHours": 2,
+            "ResourceGroup": "Cuttable"
+          }
+        },
+        "gathering": null,
+        "watered": {
+          "DaysToDieDry": 15
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 10
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Pine",
+      "sourcePath": "NaturalResources/Trees/Pine/Pine.blueprint.json",
+      "kind": "tree",
+      "factions": [
+        "folktails",
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Pine.DisplayName",
+      "name": "소나무",
+      "enName": "Pine",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 3
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Forester",
+          "PlantTimeInHours": 0.75
+        },
+        "growth": {
+          "GrowthTimeInDays": 12
+        },
+        "cutting": {
+          "RemoveOnCut": false,
+          "LeftoverModelName": "#Leftover",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Log",
+              "Amount": 2
+            },
+            "RemovalTimeInHours": 1.5,
+            "ResourceGroup": "Cuttable"
+          }
+        },
+        "gathering": {
+          "YieldGrowthTimeInDays": 7,
+          "Yielder": {
+            "YielderComponentName": "Gatherable",
+            "Yield": {
+              "Id": "PineResin",
+              "Amount": 2
+            },
+            "RemovalTimeInHours": 1.2,
+            "ResourceGroup": "Tappable"
+          }
+        },
+        "watered": {
+          "DaysToDieDry": 13
+        },
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 12
+        },
+        "arid": null
+      }
+    },
+    {
+      "id": "Succulent",
+      "sourcePath": "NaturalResources/Trees/Succulent/Succulent.blueprint.json",
+      "kind": "tree",
+      "factions": [
+        "folktails",
+        "iron-teeth"
+      ],
+      "nameKey": "NaturalResource.Succulent.DisplayName",
+      "name": "다육이",
+      "enName": "Succulent",
+      "group": null,
+      "order": null,
+      "block": {
+        "Size": {
+          "X": 1,
+          "Y": 1,
+          "Z": 2
+        },
+        "Blocks": [
+          {
+            "MatterBelow": "Ground",
+            "Occupations": "All",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          },
+          {
+            "MatterBelow": "Any",
+            "Occupations": "Floor, Bottom, Corners, Path, Middle",
+            "Stackable": "None",
+            "OccupyAllBelow": false,
+            "Underground": false
+          }
+        ],
+        "Entrance": {
+          "HasEntrance": false,
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        "BaseZ": 0,
+        "Overridable": false,
+        "Flippable": false
+      },
+      "path": null,
+      "navigation": null,
+      "plant": {
+        "planting": {
+          "ResourceGroup": "Forester",
+          "PlantTimeInHours": 0.5
+        },
+        "growth": {
+          "GrowthTimeInDays": 65
+        },
+        "cutting": {
+          "RemoveOnCut": false,
+          "LeftoverModelName": "#Leftover",
+          "Yielder": {
+            "YielderComponentName": "Cuttable",
+            "Yield": {
+              "Id": "Water",
+              "Amount": 2
+            },
+            "RemovalTimeInHours": 1,
+            "ResourceGroup": "Cuttable"
+          }
+        },
+        "gathering": null,
+        "watered": null,
+        "flooding": {
+          "MinWaterHeight": 0,
+          "MaxWaterHeight": 0,
+          "DaysToDie": 4
+        },
+        "arid": {
+          "DaysToDieWet": 8
+        }
+      }
+    }
+  ]
+}

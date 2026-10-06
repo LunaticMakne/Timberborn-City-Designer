@@ -71,6 +71,7 @@ test('old local overlaps are preserved, flagged, and can be repaired', async ({ 
   const old = { ...fixture, objects: [...fixture.objects, { ...fixture.objects[0], id: 'overlap' }] };
   await page.addInitScript(data => localStorage.setItem('timberborn-designer.layout-v1.folktails', JSON.stringify(data)), old);
   await page.goto('/');
+  await page.locator('#catalog-profile').selectOption('layout-demo');
   await expect(page.locator('#object-count')).toHaveText('2');
   await expect(page.locator('.summary-note')).toHaveClass(/has-errors/);
   await page.getByRole('button', { name: /배치 목록/ }).click();

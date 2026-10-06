@@ -1,5 +1,9 @@
 import { expect, test, type Page } from '@playwright/test';
 
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('timberborn-designer.workspace', JSON.stringify({ profile: 'layout-demo', faction: 'folktails' })));
+});
+
 async function setup(page: Page) {
   await page.goto('/');
   await page.locator('#new-project').click();

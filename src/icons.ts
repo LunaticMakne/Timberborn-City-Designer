@@ -28,6 +28,13 @@ const paths: Record<string, string> = {
 export const icon = (name: string, size = 18) => `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.cube}</svg>`;
 
 export function thumbnail(kind: string, color: string) {
+  if (kind === 'district-center') return `<svg class="object-thumbnail" viewBox="0 0 84 66" aria-hidden="true"><ellipse cx="42" cy="55" rx="28" ry="7" fill="#000" opacity=".1"/><path d="M17 37 41 24 68 37v15L44 64 17 50Z" fill="${color}"/><path d="M36 43V11l8-5 9 5v32l-9 5Z" fill="#8d845b"/><path d="m32 11 12-8 14 8-14 8Z" fill="#526b58"/><path d="M22 37V15m0 0h12v8H22" stroke="#b9a171" fill="#dfb559" stroke-width="2"/></svg>`;
+  if (['crop', 'tree', 'bush'].includes(kind)) {
+    const crown = kind === 'tree' ? '<path d="M42 8 22 35h10l-13 10h46L52 35h10Z"/>'
+      : kind === 'bush' ? '<ellipse cx="42" cy="35" rx="24" ry="16"/>'
+      : '<path d="M24 45V24m18 21V18m18 27V24" fill="none" stroke-width="5"/><path d="m24 33-8-8m26 4-8-8m26 12 8-8" fill="none" stroke-width="4"/>';
+    return `<svg class="object-thumbnail" viewBox="0 0 84 66" aria-hidden="true"><ellipse cx="42" cy="54" rx="27" ry="7" fill="#000" opacity=".1"/><path d="M42 53V28" stroke="#9b805c" stroke-width="7"/><g fill="${color}" stroke="${color}">${crown}</g></svg>`;
+  }
   const legs = kind === 'platform' ? '<path d="M20 28v16 M43 39v16 M64 27v16" stroke="#aa9677" stroke-width="4"/>' : '';
   const height = kind === 'path' ? 5 : kind === 'platform' ? 7 : 20;
   return `<svg class="object-thumbnail" viewBox="0 0 84 66" aria-hidden="true">

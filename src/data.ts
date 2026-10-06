@@ -1,6 +1,13 @@
+import { gameCatalog, gameProfile, gameSource, type GameRecord } from './game-catalog';
+
+// Installed 1.1.2.4: Configurations/MapSize.blueprint.json (also in data/game-catalog.json).
+export const mapSize = { min: 4, max: 256, default: 128 } as const;
+export const maxObjects = 10000;
+
 export type Faction = 'folktails' | 'iron-teeth';
-export type Category = 'housing' | 'storage' | 'structure';
-export type Kind = 'house' | 'warehouse' | 'tank' | 'platform' | 'stairs' | 'path';
+export type CatalogProfile = 'layout-demo' | typeof gameProfile;
+export type Category = 'housing' | 'storage' | 'structure' | 'plants';
+export type Kind = 'house' | 'warehouse' | 'tank' | 'platform' | 'stairs' | 'path' | 'pile' | 'crop' | 'bush' | 'tree' | 'district-center';
 
 export interface ObjectDefinition {
   id: string;
@@ -9,6 +16,11 @@ export interface ObjectDefinition {
   kind: Kind;
   size: [number, number, number]; // width (X), height (Y), depth (Z)
   color: string;
+  enName?: string;
+  factions?: Faction[];
+  game?: GameRecord;
+  supportHeight?: number;
+  entrance?: { x: number; y: number; z: number };
 }
 
 // Layout samples only. These dimensions are NOT verified Timberborn building data.
@@ -31,7 +43,8 @@ export interface Placement {
 
 export interface Blueprint {
   schemaVersion: 1;
-  catalogProfile: 'layout-demo';
+  catalogProfile: CatalogProfile;
+  catalogRevision?: string;
   name: string;
   faction: Faction;
   gridSize: number;
@@ -39,9 +52,40 @@ export interface Blueprint {
 }
 
 export function definition(type: string) {
-  const result = catalog.find(item => item.id === type);
+  const result = catalog.find(item => item.id === type) ?? gameCatalog.find(item => item.id === type);
   if (!result) throw new Error(`알 수 없는 오브젝트: ${type}`);
   return result;
+}
+
+export function catalogFor(profile: CatalogProfile, faction: Faction) {
+  return profile === 'layout-demo' ? catalog : gameCatalog.filter(item => item.factions!.includes(faction));
+}
+
+export function createBlueprint(profile: CatalogProfile, faction: Faction): Blueprint {
+  return profile === 'layout-demo' ? createDemo(faction) : {
+    schemaVersion: 1, catalogProfile: gameProfile, catalogRevision: gameSource.blueprintsSha256,
+    name: '새 메가시티', faction, gridSize: mapSize.default, objects: [],
+  };
+}
+
+export function storageKey(profile: CatalogProfile, faction: Faction) {
+  return profile === 'layout-demo' ? `timberborn-designer.layout-v1.${faction}`
+    : `timberborn-designer.${profile}.${faction}`;
+}
+
+export function entrancePosition(item: Placement) {
+  const type = definition(item.objectType);
+  if (!type.entrance) return undefined;
+  return worldPosition(item, type.entrance);
+}
+
+export function worldPosition(item: Placement, local: Placement['position']) {
+  const type = definition(item.objectType);
+  const { x, y, z } = local;
+  const [w, , d] = type.size;
+  const [rx, rz] = item.rotation === 0 ? [x, z] : item.rotation === 90 ? [d - 1 - z, x]
+    : item.rotation === 180 ? [w - 1 - x, d - 1 - z] : [z, w - 1 - x];
+  return { x: item.position.x + rx, y: item.position.y + y, z: item.position.z + rz };
 }
 
 export function footprint(item: Placement) {
@@ -85,19 +129,22 @@ export function createDemo(faction: Faction): Blueprint {
 // File-shape checks. Spatial checks are separate so old local drafts can be repaired.
 export function parseBlueprint(text: string): Blueprint {
   const data = JSON.parse(text);
-  if (!data || data.schemaVersion !== 1 || data.catalogProfile !== 'layout-demo'
+  if (!data || data.schemaVersion !== 1 || !['layout-demo', gameProfile].includes(data.catalogProfile)
+    || (data.catalogProfile === gameProfile && data.catalogRevision !== gameSource.blueprintsSha256)
     || !['folktails', 'iron-teeth'].includes(data.faction)
     || typeof data.name !== 'string' || !data.name.trim() || data.name.length > 100
-    || data.gridSize !== 32 || !Array.isArray(data.objects) || data.objects.length > 10000) {
+    || !Number.isInteger(data.gridSize) || data.gridSize < mapSize.min || data.gridSize > mapSize.max
+    || !Array.isArray(data.objects) || data.objects.length > maxObjects) {
     throw new Error('이 화면에서 지원하는 청사진 파일이 아닙니다.');
   }
   const ids = new Set<string>();
+  const allowed = new Set(catalogFor(data.catalogProfile, data.faction).map(item => item.id));
   for (const item of data.objects) {
     if (!item || typeof item.id !== 'string' || !item.id || item.id.length > 150 || ids.has(item.id)
-      || !catalog.some(type => type.id === item.objectType)
+      || !allowed.has(item.objectType)
       || ![0, 90, 180, 270].includes(item.rotation)
       || !item.position || !['x', 'y', 'z'].every(axis => Number.isInteger(item.position[axis]))
-      || item.position.x < 0 || item.position.x > 31 || item.position.z < 0 || item.position.z > 31
+      || item.position.x < 0 || item.position.x >= data.gridSize || item.position.z < 0 || item.position.z >= data.gridSize
       || item.position.y < 0 || item.position.y > 12) {
       throw new Error('청사진의 오브젝트 데이터가 올바르지 않습니다.');
     }

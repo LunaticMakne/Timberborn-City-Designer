@@ -1,9 +1,46 @@
-import { definition, footprint, type Blueprint, type Placement } from './data';
+import { definition, footprint, maxObjects, type Blueprint, type Placement } from './data';
 
 export interface PlacementProblem {
-  kind: 'overlap' | 'bounds';
+  kind: 'overlap' | 'bounds' | 'limit';
   objectIds: string[];
   message: string;
+}
+
+// Drag anchors stay on the starting object's grid, including reversed drags.
+// The height is deliberately fixed to the first surface, not re-snapped per tile.
+export function dragPlacements(objectType: string, rotation: Placement['rotation'], start: Placement['position'], end: Placement['position']): Placement[] {
+  const seed: Placement = { id: '', objectType, rotation, position: start };
+  const [w, , d] = footprint(seed);
+  const columns = Math.floor(Math.abs(end.x - start.x) / w) + 1;
+  const rows = Math.floor(Math.abs(end.z - start.z) / d) + 1;
+  const result: Placement[] = [];
+  for (let z = 0; z < rows; z++) for (let x = 0; x < columns; x++) {
+    result.push({ ...seed, id: `drag-preview-${result.length}`, position: {
+      x: start.x + x * w * (end.x >= start.x ? 1 : -1), y: start.y,
+      z: start.z + z * d * (end.z >= start.z ? 1 : -1),
+    } });
+  }
+  return result;
+}
+
+export function batchPlacementProblem(candidates: Placement[], objects: Placement[], gridSize: number) {
+  if (objects.length + candidates.length > maxObjects) return objectLimitProblem();
+  // Batch members may never use an existing ID to bypass collision checks.
+  const pending = [...objects];
+  const boxes = objects.map(volume);
+  for (const candidate of candidates) {
+    const outside = boundsProblem(candidate, gridSize);
+    if (outside) return outside;
+    const box = volume(candidate);
+    const index = boxes.findIndex(other => overlaps(box, other));
+    if (index !== -1) return overlapProblem(candidate, pending[index]);
+    pending.push(candidate);
+    boxes.push(box);
+  }
+}
+
+function objectLimitProblem(): PlacementProblem {
+  return { kind: 'limit', objectIds: [], message: `청사진은 최대 ${maxObjects.toLocaleString()}개까지 배치할 수 있습니다. 영역을 줄여 주세요.` };
 }
 
 function volume(item: Placement) {
@@ -33,6 +70,7 @@ function overlapProblem(a: Placement, b: Placement): PlacementProblem {
 // Conservative catalog volumes, not rendered window details or game support rules.
 // Do not discard hidden floors: their occupied space still blocks construction.
 export function placementProblem(candidate: Placement, objects: Placement[], gridSize: number): PlacementProblem | undefined {
+  if (objects.length >= maxObjects && !objects.some(item => item.id === candidate.id)) return objectLimitProblem();
   const outside = boundsProblem(candidate, gridSize);
   if (outside) return outside;
   const box = volume(candidate);

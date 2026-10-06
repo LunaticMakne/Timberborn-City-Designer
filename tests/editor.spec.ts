@@ -1,6 +1,10 @@
 import { expect, test } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('timberborn-designer.workspace', JSON.stringify({ profile: 'layout-demo', faction: 'folktails' })));
+});
+
 test('placement, editing, undo, and file round-trip work in the rendered editor', async ({ page }) => {
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
